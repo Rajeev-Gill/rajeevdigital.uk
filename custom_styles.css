@@ -1,0 +1,118 @@
+/* Homepage Styles */
+
+.rajeev-digital-logo {
+    position: absolute;
+    left: 0;
+    width: 62px;
+    z-index: 99999;
+}
+
+.typed-string-container {
+    min-height: 231px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+}
+
+/* My Work */
+
+.black-image-project-hover img {
+    filter: contrast(100%) grayscale(100%);
+}
+
+/* Portfolio tags */
+
+.tag {
+color: #7D7D7D;
+border-color: #7D7D7D;
+padding: 0px 3px;    
+}
+
+.tag:hover {
+    color: #7D7D7D;
+    border-color: #7D7D7D; 
+    background-color: #FFF;     
+    cursor: default;  
+}
+
+/* About Me */
+
+.about-me p.services {
+    font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 586px){ /*Special fix for typed strings on wide mobiles*/
+    .typed-string-container {
+        margin-bottom: 180px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) { /*Special fix for menu+logo*/
+    .navbar-default .navbar-collapse .navbar-nav, .navbar-inverse .navbar-collapse .navbar-nav {
+        padding-top: 50px;
+    }
+}
+
+
+/*
+Mobiles
+*/
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .text-content h1 {
+        height: 308px;    
+        }
+
+    h1.typed-string-container {
+        font-size: 43px;
+        margin-top: 0;
+        margin-bottom: 150px;
+        height: 220px;
+    }
+
+    
+    .cta-buttons {
+        bottom: 72px;
+    position: absolute;
+    margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 370px){ /*CTA button fix for mob*/
+    .cta-buttons a:nth-child(2) {
+        margin-top: 10px;   
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .rajeev-digital-logo {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 0;
+        width: 62px;
+        z-index: 99999;
+    }
+}
+
+/*
+Tablets 
+*/
+@media only screen and (min-width: 480px) and (max-width: 991px){
+    .text-content h1 {
+        height: 308px;    
+        }
+}
+
+/*
+Laptop/Desktop
+*/
+@media only screen and (min-width: 992px){
+    .img-me{
+        margin-top: 60px;
+    }
+}

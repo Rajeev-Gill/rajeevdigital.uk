@@ -1,0 +1,15 @@
+{
+  "name": "rajeev_portfolio_april_2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.70a66962.js",
+  "dependencies": {
+    "livereload": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
